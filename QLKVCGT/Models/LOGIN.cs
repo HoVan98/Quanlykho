@@ -70,12 +70,12 @@ namespace QLKVCGT
             }
         }
 
-        private void LOGIN_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Bạn có thực sự muốn thoát chương trình?", "Xác minh", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (result == DialogResult.OK)
-                Application.Exit();
-        }
+        //private void LOGIN_FormClosing(object sender, FormClosingEventArgs e)
+        //{
+        //    DialogResult result = MessageBox.Show("Bạn có thực sự muốn thoát chương trình?", "Xác minh", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+        //    if (result == DialogResult.OK)
+        //        Application.Exit();
+        //}
 
        
     }

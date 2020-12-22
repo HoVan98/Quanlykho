@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QLKVCGT.Models
+namespace QLKVCGT.Controler
 {
-    class CustomerMod
+    class vipamnv
     {
     }
 }

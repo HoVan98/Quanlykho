@@ -65,26 +65,26 @@
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1359, 585);
+            this.panel1.Size = new System.Drawing.Size(1585, 720);
             this.panel1.TabIndex = 0;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.panel2);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(254, 177);
+            this.panel3.Location = new System.Drawing.Point(12, 218);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(669, 403);
+            this.panel3.Size = new System.Drawing.Size(1346, 496);
             this.panel3.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.gctCustomer);
-            this.panel2.Location = new System.Drawing.Point(3, 34);
+            this.panel2.Location = new System.Drawing.Point(3, 42);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(664, 366);
+            this.panel2.Size = new System.Drawing.Size(775, 450);
             this.panel2.TabIndex = 60;
             // 
             // gctCustomer
@@ -95,13 +95,14 @@
             this.gctCustomer.MainView = this.dgvCustomer;
             this.gctCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gctCustomer.Name = "gctCustomer";
-            this.gctCustomer.Size = new System.Drawing.Size(664, 366);
+            this.gctCustomer.Size = new System.Drawing.Size(775, 450);
             this.gctCustomer.TabIndex = 0;
             this.gctCustomer.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgvCustomer});
             // 
             // dgvCustomer
             // 
+            this.dgvCustomer.DetailHeight = 431;
             this.dgvCustomer.GridControl = this.gctCustomer;
             this.dgvCustomer.Name = "dgvCustomer";
             this.dgvCustomer.OptionsBehavior.ReadOnly = true;
@@ -109,9 +110,9 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(228, 9);
+            this.label2.Location = new System.Drawing.Point(527, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(239, 23);
+            this.label2.Size = new System.Drawing.Size(279, 28);
             this.label2.TabIndex = 59;
             this.label2.Text = "Danh sách khách hàng";
             // 
@@ -132,152 +133,154 @@
             this.panel4.Controls.Add(this.tbAddress);
             this.panel4.Controls.Add(this.tbPhone);
             this.panel4.Controls.Add(this.label12);
-            this.panel4.Location = new System.Drawing.Point(254, 2);
+            this.panel4.Location = new System.Drawing.Point(12, 2);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(669, 170);
+            this.panel4.Size = new System.Drawing.Size(1346, 209);
             this.panel4.TabIndex = 0;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(349, 97);
+            this.label6.Location = new System.Drawing.Point(808, 108);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 21);
+            this.label6.Size = new System.Drawing.Size(138, 26);
             this.label6.TabIndex = 79;
             this.label6.Text = "Fax:";
             // 
             // tbFax
             // 
             this.tbFax.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbFax.Location = new System.Drawing.Point(473, 95);
+            this.tbFax.Location = new System.Drawing.Point(952, 108);
             this.tbFax.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbFax.Name = "tbFax";
-            this.tbFax.Size = new System.Drawing.Size(159, 23);
+            this.tbFax.Size = new System.Drawing.Size(185, 27);
             this.tbFax.TabIndex = 78;
             // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(45, 131);
+            this.label5.Location = new System.Drawing.Point(54, 131);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 21);
+            this.label5.Size = new System.Drawing.Size(138, 26);
             this.label5.TabIndex = 77;
             this.label5.Text = "Email:";
             // 
             // tbEmail
             // 
             this.tbEmail.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEmail.Location = new System.Drawing.Point(168, 129);
+            this.tbEmail.Location = new System.Drawing.Point(197, 131);
             this.tbEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(159, 23);
+            this.tbEmail.Size = new System.Drawing.Size(185, 27);
             this.tbEmail.TabIndex = 76;
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(200, 4);
+            this.label1.Location = new System.Drawing.Point(233, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(282, 23);
+            this.label1.Size = new System.Drawing.Size(329, 28);
             this.label1.TabIndex = 75;
             this.label1.Text = "Thông tin chi tiết khách hàng";
             // 
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label14.Location = new System.Drawing.Point(46, 40);
+            this.label14.Location = new System.Drawing.Point(54, 49);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(118, 21);
+            this.label14.Size = new System.Drawing.Size(138, 26);
             this.label14.TabIndex = 64;
             this.label14.Text = "Mã khách hàng:";
             // 
             // tbCustomerID
             // 
             this.tbCustomerID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCustomerID.Location = new System.Drawing.Point(169, 38);
+            this.tbCustomerID.Location = new System.Drawing.Point(197, 47);
             this.tbCustomerID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbCustomerID.Name = "tbCustomerID";
-            this.tbCustomerID.Size = new System.Drawing.Size(159, 23);
+            this.tbCustomerID.Size = new System.Drawing.Size(185, 27);
             this.tbCustomerID.TabIndex = 63;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(46, 98);
+            this.label4.Location = new System.Drawing.Point(808, 49);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(118, 21);
+            this.label4.Size = new System.Drawing.Size(138, 26);
             this.label4.TabIndex = 72;
             this.label4.Text = "Mã số thuế:";
             // 
             // tbCustomerName
             // 
             this.tbCustomerName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCustomerName.Location = new System.Drawing.Point(472, 38);
+            this.tbCustomerName.Location = new System.Drawing.Point(552, 49);
             this.tbCustomerName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbCustomerName.Name = "tbCustomerName";
-            this.tbCustomerName.Size = new System.Drawing.Size(159, 23);
+            this.tbCustomerName.Size = new System.Drawing.Size(185, 27);
             this.tbCustomerName.TabIndex = 65;
             // 
             // tbTax_Ident_Num
             // 
             this.tbTax_Ident_Num.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTax_Ident_Num.Location = new System.Drawing.Point(169, 96);
+            this.tbTax_Ident_Num.Location = new System.Drawing.Point(952, 46);
             this.tbTax_Ident_Num.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbTax_Ident_Num.Name = "tbTax_Ident_Num";
-            this.tbTax_Ident_Num.Size = new System.Drawing.Size(159, 23);
+            this.tbTax_Ident_Num.Size = new System.Drawing.Size(185, 27);
             this.tbTax_Ident_Num.TabIndex = 71;
             // 
             // label13
             // 
             this.label13.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label13.Location = new System.Drawing.Point(350, 40);
+            this.label13.Location = new System.Drawing.Point(408, 49);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(118, 21);
+            this.label13.Size = new System.Drawing.Size(138, 26);
             this.label13.TabIndex = 66;
             this.label13.Text = "Tên khách hàng:";
             // 
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label11.Location = new System.Drawing.Point(350, 69);
+            this.label11.Location = new System.Drawing.Point(408, 111);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(118, 21);
+            this.label11.Size = new System.Drawing.Size(138, 26);
             this.label11.TabIndex = 70;
             this.label11.Text = "Điện thoại:";
             // 
             // tbAddress
             // 
             this.tbAddress.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAddress.Location = new System.Drawing.Point(169, 67);
+            this.tbAddress.Location = new System.Drawing.Point(197, 89);
             this.tbAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbAddress.Name = "tbAddress";
-            this.tbAddress.Size = new System.Drawing.Size(159, 23);
+            this.tbAddress.Size = new System.Drawing.Size(185, 27);
             this.tbAddress.TabIndex = 67;
             // 
             // tbPhone
             // 
             this.tbPhone.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPhone.Location = new System.Drawing.Point(472, 67);
+            this.tbPhone.Location = new System.Drawing.Point(552, 108);
             this.tbPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPhone.Name = "tbPhone";
-            this.tbPhone.Size = new System.Drawing.Size(159, 23);
+            this.tbPhone.Size = new System.Drawing.Size(185, 27);
             this.tbPhone.TabIndex = 69;
             // 
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(46, 69);
+            this.label12.Location = new System.Drawing.Point(54, 90);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(118, 21);
+            this.label12.Size = new System.Drawing.Size(138, 26);
             this.label12.TabIndex = 68;
             this.label12.Text = "Địa chỉ:";
             // 
             // Customer_Store
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.Appearance.BackColor = System.Drawing.Color.LightBlue;
+            this.Appearance.Options.UseBackColor = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 591);
+            this.ClientSize = new System.Drawing.Size(1370, 727);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Customer_Store";

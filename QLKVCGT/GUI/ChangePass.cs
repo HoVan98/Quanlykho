@@ -22,13 +22,11 @@ namespace QLKVCGT.GUI
         {
             InitializeComponent();
         } 
-
         public void init(int _id, string _oldPass)
         {
             id = _id;
             oldPass = _oldPass;
         }
-
         private void btnSave_Click(object sender, EventArgs e)
         {
             string _oldPass = tbOldPass.Text.Trim(' ');
@@ -44,7 +42,6 @@ namespace QLKVCGT.GUI
                 MessageBox.Show("Mật khẩu cũ không đúng!");
                 return;
             }
-            
             Controler.ChangePassControl change = new Controler.ChangePassControl();
             int i=change.ChangePass(id, newPass);
             if(i>0)
@@ -53,7 +50,6 @@ namespace QLKVCGT.GUI
                 this.Close();
             }
         }
-
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
